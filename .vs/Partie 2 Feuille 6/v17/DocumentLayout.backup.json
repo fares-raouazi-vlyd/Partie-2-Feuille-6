@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fraouazi\\source\\repos\\fares-raouazi-vlyd\\Partie-2-Feuille-6\\Partie 2 Feuille 6\\",
+  "WorkspaceRootPath": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BB5A654-98F3-4709-BD0F-4BFD7725D9BC}|Partie 2 Feuille 6.vcxproj|C:\\Users\\fraouazi\\source\\repos\\fares-raouazi-vlyd\\Partie-2-Feuille-6\\Partie 2 Feuille 6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7BB5A654-98F3-4709-BD0F-4BFD7725D9BC}|Partie 2 Feuille 6.vcxproj|C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7BB5A654-98F3-4709-BD0F-4BFD7725D9BC}|Partie 2 Feuille 6.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73CBF79-CB12-4EE7-AE65-FC2297D2CA79}|..\\Partie-2-Feuille-1\\Partie 2 Feuille 1.vcxproj|C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +29,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp",
+              "RelativeDocumentMoniker": "..\\Partie-2-Feuille-1\\main.cpp",
+              "ToolTip": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp",
+              "RelativeToolTip": "..\\Partie-2-Feuille-1\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T13:02:51.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\fraouazi\\source\\repos\\fares-raouazi-vlyd\\Partie-2-Feuille-6\\Partie 2 Feuille 6\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\fraouazi\\source\\repos\\fares-raouazi-vlyd\\Partie-2-Feuille-6\\Partie 2 Feuille 6\\main.cpp",
+              "ToolTip": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-16T11:50:42.097Z",
+              "WhenOpened": "2025-10-16T13:01:36.976Z",
               "EditorCaption": ""
             }
           ]
