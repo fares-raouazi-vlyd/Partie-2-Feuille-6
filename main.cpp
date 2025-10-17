@@ -17,8 +17,12 @@ char* ToggleLow(const char* c)
 		{
 			string[i] = c[i] + 32;
 		}
+		else
+		{
+			string[i] = c[i];
+		}
 	}
-	string[5] = '\0';
+	string[GetLength(c)] = '\0';
 	return string;
 }
 const char* ConcatenateString(const char* string1,const char* string2)
@@ -101,8 +105,8 @@ int CompareString(const char* string1, const char* string2, bool caseSensitive)
 
 	if(!caseSensitive)
 	{
-		char* lString1 = ToggleLow(string1);
-		char* lString2 = ToggleLow(string2);
+		const char* lString1 = ToggleLow(string1);
+		const char* lString2 = ToggleLow(string2);
 		if (GetLength(string1) != GetLength(string2))
 		{
 			return same;
@@ -112,8 +116,9 @@ int CompareString(const char* string1, const char* string2, bool caseSensitive)
 		{
 			for (int i = 0; i < GetLength(string1); i++)
 			{
-				if (string1[i] != string2[i])
+				if (lString1[i] != lString2[i])
 				{
+					std::cout << lString1;
 					return same;
 				}
 			}
@@ -150,12 +155,101 @@ void CompareStringMain()
 	}
 
 }
+int CountCharacterFrequency(const char* string, char target)
+{
+	char lTarget = *ToggleLow(&target);
+	const char* lString = ToggleLow(string);
+	int occurence = 0;
+	for (int i = 0; i < GetLength(lString); i++)
+	{
+		if (lString[i] == lTarget)
+		{
+			occurence++;
+		}
+	}
+	return occurence;
+}
+void CountCharacterFrequencyMain()
+{
+	const char* string = "heLlo worLd";
+	char target;
+	std::cout << "Targeted character ?" << std::endl;
+	std::cin >> target;
+	std::cout << "There is : " << CountCharacterFrequency(string, target) << "  '" << target << "' in " << string;
+}
+bool IsPalindrome(const char* string)
+{
+	int size = GetLength(string);
+	char* reverseString = (char*)malloc(sizeof(char) * size);
+	int h = 0;
+	if (reverseString == nullptr)
+		exit(1);
+	reverseString[size] = '\0';
+	for (int i = size - 1; h < size; i--)
+	{
+		reverseString[i] = string[h++];
+	}
+	
+	if (CompareString(string, reverseString, 0) == 1)
+	{
+		return true;
+	}
+	return false;
+}
+void IsPalindromeMain()
+{
+	const char* string1 = "radar";
+	const char* string2 = "salut";
+	if (IsPalindrome(string1))
+	{
+		std::cout << "Palindrome : Oui" << std::endl;
+	}
+	else if (!IsPalindrome(string1))
+	{
+		std::cout << "Palindrome : Non" << std::endl;
+	}
+	if (IsPalindrome(string2))
+	{
+		std::cout << "Palindrome : Oui" << std::endl;
+	}
+	else if (!IsPalindrome(string2))
+	{
+		std::cout << "Palindrome : Non" << std::endl;
+	}
+}
+char* SubString(const char* string, int startPos, int size)
+{
+	char* subString = (char*)malloc(sizeof(char) * size);
+	
+	if (subString == nullptr)
+		exit(1);
+	for (int i = 0; i < size; i++)
+	{
+		subString[i] = string[startPos++];
+	}
+	subString[size] = '\0';
+	return subString;
+}
+void SubStringMain()
+{
+	const char* string = "abcdef";
+	int startPos;
+	int size;
+	std::cout << "Starting position ? " << std::endl;
+	std::cin >> startPos;
+	std::cout << "Extracting size ? " << std::endl;
+	std::cin >> size;
+	std::cout << SubString(string, startPos, size);
+}
+
 int main()
 {
 	//ConcatenateStringMain();
 	//FindCharacterMain();
-	CompareStringMain();
-	
+	//CompareStringMain();
+	//CountCharacterFrequencyMain();
+	//IsPalindromeMain();
+	SubStringMain();
 	/*
 	const char* string = "salut";
 	for (int i = 0; i < GetLength(string); i++)
@@ -163,7 +257,10 @@ int main()
 		int j = (int)string[i];
 		std::cout << j << std::endl;
 	}
-	*/
+	
 
+	const char* test = "TEST  JJJ";
+	std::cout << ToggleLow(test);
+	*/
 	return 0;
 }

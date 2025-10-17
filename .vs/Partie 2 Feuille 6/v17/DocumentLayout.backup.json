@@ -5,9 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BB5A654-98F3-4709-BD0F-4BFD7725D9BC}|Partie 2 Feuille 6.vcxproj|C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7BB5A654-98F3-4709-BD0F-4BFD7725D9BC}|Partie 2 Feuille 6.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A73CBF79-CB12-4EE7-AE65-FC2297D2CA79}|..\\Partie-2-Feuille-1\\Partie 2 Feuille 1.vcxproj|C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,24 +18,15 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp",
-              "RelativeDocumentMoniker": "..\\Partie-2-Feuille-1\\main.cpp",
-              "ToolTip": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-1\\main.cpp",
-              "RelativeToolTip": "..\\Partie-2-Feuille-1\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-16T13:02:51.526Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +36,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\fraouazi\\Documents\\GitHub\\Partie-2-Feuille-6\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwOUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-16T13:01:36.976Z",
               "EditorCaption": ""
